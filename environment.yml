@@ -6,9 +6,9 @@ dependencies:
 - python>=3.9
 - numpy
 - pytables
-- pandas
+- pandas>=1.5
 - matplotlib-base
-- networkx
+- networkx>=3.0
 - scipy
 - scikit-learn
 - jupyterlab
