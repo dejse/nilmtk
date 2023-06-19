@@ -3,12 +3,12 @@ channels:
     - conda-forge
     - nilmtk
 dependencies:
-- python>=3.6
+- python>=3.9
 - numpy
 - pytables
 - pandas
 - matplotlib-base
-- networkx==2.1
+- networkx
 - scipy
 - scikit-learn
 - jupyterlab

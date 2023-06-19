@@ -97,7 +97,7 @@ setup(
     install_requires=[
         "pandas",
         "numpy",
-        "networkx==2.1",
+        "networkx",
         "scipy",
         "tables",
         "scikit-learn",
