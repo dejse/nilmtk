@@ -4,13 +4,13 @@ channels:
     - nilmtk
 dependencies:
 - python>=3.6
-- numpy>=1.13.3,<1.20
+- numpy
 - pytables
-- pandas>=0.25.3,<1.0
-- matplotlib-base>=3.1.0,<3.2.0
+- pandas
+- matplotlib-base
 - networkx==2.1
-- scipy>=1.0.0
-- scikit-learn>=0.21.2
+- scipy
+- scikit-learn
 - jupyterlab
 - nose
 - nilm_metadata

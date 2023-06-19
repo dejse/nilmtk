@@ -95,15 +95,15 @@ setup(
     packages=find_packages(),
     package_data={"": ["*.yaml"]},
     install_requires=[
-        "pandas==0.25.3",
-        "numpy >= 1.13.3, < 1.20.0",
+        "pandas",
+        "numpy",
         "networkx==2.1",
         "scipy",
         "tables",
-        "scikit-learn>=0.21.2",
-        "hmmlearn>=0.2.1",
+        "scikit-learn",
+        "hmmlearn",
         "pyyaml",
-        "matplotlib==3.1.3",
+        "matplotlib",
         "jupyterlab"
     ],
     description="Estimate the energy consumed by individual appliances from "
